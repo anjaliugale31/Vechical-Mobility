@@ -10,11 +10,13 @@ import ComponetDetailForm from "./component/Forms/ComponetDetailForm";
 import VichecalDetailForm from "./component/Forms/VichecalDetailForm";
 import IssueDetailForm from './component/Forms/IssueDetailForm';
 import PaymentDetailForm from './component/Forms/PaymentDetailForm';
+import Dashboard from './component/Dashboard';
 
 function App() {
   return (
     <Routes>
     <Route path="/" element={<Layout />}>
+    <Route path="/dashboard" element={<Dashboard/>} />
       <Route path="/vichecal" element={<Vehicle />} />
       <Route path="/issue-details" element={<Issue />} />
       <Route path="/component-details" element={<ComponentRegistration />} />

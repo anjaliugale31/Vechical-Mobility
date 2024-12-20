@@ -20,6 +20,11 @@ function Layout() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
+
+            <li className="nav-item">
+                <Link className="nav-link" to="/dashboard">Dashboard</Link>
+              </li>
+
             <li className="nav-item">
                 <Link className="nav-link" to="/component-details">Component Registration</Link>
               </li>
